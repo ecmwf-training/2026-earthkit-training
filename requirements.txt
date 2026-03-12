@@ -7,10 +7,10 @@ mirlib==1.28.1.dev57
 mir-python==1.28.1.dev57
 eckit==2.0.3.dev57
 
-earthkit-geo[all] @ git+https://github.com/ecmwf/earthkit-geo.git@release/1.0.0rc0
-earthkit-meteo[all] @ git+https://github.com/ecmwf/earthkit-meteo.git@release/1.0.0rc0
-earthkit-plots @ git+https://github.com/ecmwf/earthkit-plots.git@release/1.0.0rc0
-earthkit-transforms @ git+https://github.com/ecmwf/earthkit-transforms.git@release/1.0.0rc0
-earthkit-hydro @ git+https://github.com/ecmwf/earthkit-hydro.git@1.1.0
-
-# earthkit-utils and earthkit-data are implied by the others
+earthkit-utils @ git+https://github.com/ecmwf/earthkit-utils@release/1.0.0rc0
+earthkit-data[all] @ git+https://github.com/ecmwf/earthkit-data@release/1.0.0rc0
+earthkit-geo[all] @ git+https://github.com/ecmwf/earthkit-geo@release/1.0.0rc0
+earthkit-meteo[all] @ git+https://github.com/ecmwf/earthkit-meteo@release/1.0.0rc0
+earthkit-plots @ git+https://github.com/ecmwf/earthkit-plots@release/1.0.0rc0
+earthkit-transforms @ git+https://github.com/ecmwf/earthkit-transforms@release/1.0.0rc0
+earthkit-hydro @ git+https://github.com/ecmwf/earthkit-hydro@1.1.0
