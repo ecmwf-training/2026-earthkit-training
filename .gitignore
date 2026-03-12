@@ -167,3 +167,6 @@ cython_debug/
 .ipynb_checkpoints/
 
 _build/
+
+ temporary files
+_*.grib
