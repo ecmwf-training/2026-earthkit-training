@@ -1,0 +1,38 @@
+version: 1
+
+# Branding
+extends:
+  - branding/ecmwf.yml
+
+project:
+  title: ECMWF internal earthkit training, March 2026
+  license: Apache-2.0
+  open_access: true
+  exclude:
+    - developer/*
+  github: ecmwf-training/jupyter-template
+  thebe:
+    binder:
+      repo: ecmwf-training/jupyter-template
+      provider: github
+      url: https://mybinder.org
+      ref: develop
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: content/index.md
+    - title: earthkit-data
+      file: content/earthkit-data/index.md
+      children:
+        - file: content/earthkit-data/template-notebook.ipynb
+    - title: earthkit-meteo
+      file: content/earthkit-meteo/index.md
+      children:
+        - file: content/earthkit-meteo/template-notebook.ipynb
+
+site:
+  template: book-theme
+  options:
+    folders: true
