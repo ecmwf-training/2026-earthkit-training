@@ -14,3 +14,5 @@ earthkit-meteo[all] @ git+https://github.com/ecmwf/earthkit-meteo@release/1.0.0r
 earthkit-plots @ git+https://github.com/ecmwf/earthkit-plots@release/1.0.0rc0
 earthkit-transforms @ git+https://github.com/ecmwf/earthkit-transforms@release/1.0.0rc0
 earthkit-hydro @ git+https://github.com/ecmwf/earthkit-hydro@release/1.0.0rc0
+
+jupyterlab
