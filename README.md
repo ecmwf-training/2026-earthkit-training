@@ -10,7 +10,7 @@ pip3 install -r ./requirements.txt
 ## On ATOS only - make the virtualenv available to JupyterHub:
 ```
 pip3 install ipykernel
-python3 -m ipykernel install --user --name=earthkit-v1 --env PATH "HOME/training/earthkit-venv/bin:\$PATH"
+python3 -m ipykernel install --user --name=earthkit-v1 --env PATH "HOME/training/2026-earthkit-training/earthkit-venv/bin:\$PATH"
 ```
 
 # ECMWF Jupyter Book template
