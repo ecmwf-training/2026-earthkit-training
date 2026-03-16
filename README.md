@@ -6,6 +6,9 @@ module load python3 # only required on ATOS
 python3 -m venv ./earthkit-venv
 source ./earthkit-venv/bin/activate
 pip3 install -r ./requirements.txt
+
+# note: if using 'uv', you will need a different syntax to get the development versions of these packages:
+uv pip install --default-index https://test.pypi.org/simple/ --index https://pypi.org/simple/ --index-strategy unsafe-best-match --prerelease=allow  -r requirements.txt
 ```
 ## On ATOS only - make the virtualenv available to JupyterHub:
 ```
