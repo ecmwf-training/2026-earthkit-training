@@ -48,6 +48,7 @@ project:
       children:
         - file: content/earthkit-transforms/01-calculate-and-plot-daily-monthly-mean-data.ipynb
         - file: content/earthkit-transforms/02-reduce-era5-data-over-geometries.ipynb
+        - file: content/earthkit-transforms/03-calculate-and-plot-climatologies.ipynb
     - title: earthkit-meteo
       file: content/earthkit-meteo/index.md
       children:
