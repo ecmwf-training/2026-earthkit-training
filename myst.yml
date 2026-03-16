@@ -27,6 +27,10 @@ project:
       file: content/earthkit-data/index.md
       children:
         - file: content/earthkit-data/template-notebook.ipynb
+    - title: earthkit-transforms
+      file: content/earthkit-transforms/index.md
+      children:
+        - file: content/earthkit-transforms/01-calculate-and-plot-daily-monthly-mean-data.ipynb
     - title: earthkit-meteo
       file: content/earthkit-meteo/index.md
       children:

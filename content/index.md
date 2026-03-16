@@ -1,40 +1,43 @@
-# ECMWF Jupyter Book template
+# earthkit version 1.0.0 training event, 2026
 
-This repository provides a **ready-to-use template** for creating and maintaining **Jupyter Books** for learning, training, and technical documentation in C3S/CAMS projects implemented by ECMWF.
+The notebooks here are intended to provide an insight for new users of the first official/public
+release of the `earthkit` software landscape.
+`earthkit` provides a library of software packages that can be used independantly, or in unison,
+to construct quality assured and efficient workflows and experiments in the fields of
+Earth science.
 
-It serves two purposes:
-
-1. **Help you get started quickly.**
-    The template gives you a clear structure and consistent styling, so you can focus on your content.
-2. **Guide you along the way.**
-    It also documents recommended practices, helping you avoid rework later during reviews and publication.
-
-In short, the template saves time twice: first by accelerating the initial setup, and later by reducing review cycles and fixes.
+This training event will prove a brief introduction to the packages that are included in
+the 1.0 release.
 
 
 ::::{grid} 1 1 2 3
 
 :::{card}
-:header: Get started
-:link: ./howto/setup-book
-Follow step-by-step instructions to set up your Jupyter Book.
+:header: earthkit-data
+:link: ./earthkit-data/index
 :::
 
 :::{card}
-:header: Notebook template
-:link: ./reference/template-notebook
-Start from a minimal notebook template that already follows best practices.
+:header: earthkit-plots
+:link: ./earthkit-plots/index
 :::
 
 :::{card}
-:header: Best practices
-:link: ./reference/best-practices
-Learn how to develop clear and review-ready notebooks.
+:header: earthkit-geo
+:link: ./earthkit-geo/index
 :::
 
-::::
+:::{card}
+:header: earthkit-transforms
+:link: ./earthkit-transforms/index
+:::
 
+:::{card}
+:header: earthkit-meteo
+:link: ./earthkit-meteo/index
+:::
 
-:::{note} 
-This documentation is organised using the [Diátaxis framework](./explanation/diataxis.md). We recommend using the same approach when structuring your own project’s Jupyter Book.
+:::{card}
+:header: earthkit-hydro
+:link: ./earthkit-hydro/index
 :::
