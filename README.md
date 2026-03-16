@@ -1,3 +1,18 @@
+# Setup
+
+## Create a virtualenv
+```
+module load python3 # only required on ATOS
+python3 -m venv ./earthkit-venv
+source ./earthkit-venv/bin/activate
+pip3 install -r ./requirements.txt
+```
+## On ATOS only - make the virtualenv available to JupyterHub:
+```
+pip3 install ipykernel
+python3 -m ipykernel install --user --name=earthkit-v1 --env PATH "HOME/training/2026-earthkit-training/earthkit-venv/bin:\$PATH"
+```
+
 # ECMWF Jupyter Book template
 
 This repository is a GitHub **template** for creating and maintaining ECMWF Jupyter Books for learning and documentation resources.
