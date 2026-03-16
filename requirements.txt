@@ -16,3 +16,5 @@ earthkit-transforms @ git+https://github.com/ecmwf/earthkit-transforms@release/1
 earthkit-hydro @ git+https://github.com/ecmwf/earthkit-hydro@release/1.0.0rc0
 
 jupyterlab
+ipykernel
+rioxarray
