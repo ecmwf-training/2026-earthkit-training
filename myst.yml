@@ -35,7 +35,10 @@ project:
     - title: earthkit-plots
       file: content/earthkit-plots/index.md
       children:
-        - file: content/earthkit-plots/grid-types.ipynb
+        - file: content/earthkit-plots/ekp-1-introduction.ipynb
+        - file: content/earthkit-plots/ekp-2-formats.ipynb
+        - file: content/earthkit-plots/ekp-3-grid-types.ipynb
+        - file: content/earthkit-plots/ekp-4-other-plots.ipynb
     - title: earthkit-geo
       file: content/earthkit-geo/index.md
       children:
