@@ -1,10 +1,7 @@
-# How-to
+# earthkit-data
 
-This section contains practical guides to help you get started with creating and managing your Jupyter Book using this template. Specifically, you can find guides on how to:
+earthkit-data is a format-agnostic Python interface for geospatial data with a focus on meteorology and climate science. It is the data handling component of earthkit.
 
-- [Set up your Jupyter Book](setup-book.md)
-- [Review your Jupyter Book](review-book.md)
+earthkit-data makes it simple to read, inspect and slice data from a wide range of geospatial input types (GRIB, NetCDF and more) and transform them into familiar scientific Python objects (including numpy arrays, pandas dataframes, xarray datasets).
 
-:::{note} About how-to guides
-How-to guides are task-oriented instructions you can follow when you already know what you want to do. [Learn more...](../explanation/diataxis.md)
-:::
+earthkit-data provides additional convenient methods for quickly inspecting certain features of your input data, such as data dimensionality, axes, coordinate reference systems and bounding boxes.

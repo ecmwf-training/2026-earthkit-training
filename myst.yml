@@ -26,7 +26,20 @@ project:
     - title: earthkit-data
       file: content/earthkit-data/index.md
       children:
-        - file: content/earthkit-data/template-notebook.ipynb
+        - file: content/earthkit-data/ekd-1-setup.ipynb
+        - file: content/earthkit-data/ekd-2-grib.ipynb
+        - file: content/earthkit-data/ekd-3-netcdf.ipynb
+        - file: content/earthkit-data/ekd-4-bufr.ipynb
+        - file: content/earthkit-data/ekd-5-stream.ipynb
+        - file: content/earthkit-data/ekd-6-targets.ipynb
+    - title: earthkit-plots
+      file: content/earthkit-plots/index.md
+      children:
+        - file: content/earthkit-plots/grid-types.ipynb
+    - title: earthkit-geo
+      file: content/earthkit-geo/index.md
+      children:
+        - file: content/earthkit-geo/ekg-1-grids.ipynb
     - title: earthkit-transforms
       file: content/earthkit-transforms/index.md
       children:
@@ -34,7 +47,17 @@ project:
     - title: earthkit-meteo
       file: content/earthkit-meteo/index.md
       children:
-        - file: content/earthkit-meteo/template-notebook.ipynb
+        - file: content/earthkit-meteo/ekm-1-wind.ipynb
+        - file: content/earthkit-meteo/ekm-2-thermo.ipynb
+        - file: content/earthkit-meteo/ekm-3-vertical.ipynb
+    - title: earthkit-hydro
+      file: content/earthkit-hydro/index.md 
+      children:
+        - file: content/earthkit-hydro/ekh-1-getting-started.ipynb
+        - file: content/earthkit-hydro/ekh-2-river-accumulations.ipynb
+        - file: content/earthkit-hydro/ekh-3-catchment-statistics.ipynb
+        - file: content/earthkit-hydro/ekh-4-distances-lengths.ipynb
+        - file: content/earthkit-hydro/ekh-5-xarray-gpu-support.ipynb
 
 site:
   template: book-theme
