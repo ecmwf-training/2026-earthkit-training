@@ -1,10 +1,12 @@
 # earthkit-transforms
 
-<picture>
-	<source srcset="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-dark.svg" media="(prefers-color-scheme: dark)">
-	<source srcset="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-light.svg" media="(prefers-color-scheme: light)">
-	<img src="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-light.svg" alt="earthkit-transforms logo" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
-</picture>
+<a href="https://earthkit-transforms.readthedocs.io/en/release-1.0.0rc0/" target="_blank" rel="noopener">
+	<picture>
+		<source srcset="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-dark.svg" media="(prefers-color-scheme: dark)">
+		<source srcset="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-light.svg" media="(prefers-color-scheme: light)">
+		<img src="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-light.svg" alt="earthkit-transforms logo" style="width: 100%; max-width: 400px; display: block; margin: 0 auto;">
+	</picture>
+</a>
 
 **earthkit-transforms** is a library of software tools to support people
 working with climate and meteorology data. It is made of sub-modules designed
