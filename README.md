@@ -12,7 +12,6 @@ uv pip install --default-index https://test.pypi.org/simple/ --index https://pyp
 ```
 ## On ATOS only - make the virtualenv available to JupyterHub:
 ```
-pip3 install ipykernel
 python3 -m ipykernel install --user --name=earthkit-v1 --env PATH "HOME/training/2026-earthkit-training/earthkit-venv/bin:\$PATH"
 ```
 
