@@ -22,7 +22,7 @@ project:
       template: plain_latex_book
       output: exports/book.pdf
   toc:
-    - file: content/index.ipynb
+    - file: content/index.md
     - title: earthkit-data
       file: content/earthkit-data/index.md
       children:
