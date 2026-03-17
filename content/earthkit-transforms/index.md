@@ -8,11 +8,17 @@
 	</picture>
 </a>
 
-**earthkit-transforms** is a library of software tools to support people
+**earthkit-transforms** is a simple to use library of software tools to support people
 working with climate and meteorology data. It is made of sub-modules designed
 for  transformations of data in specific domains.
 For example, the temporal module contains methods for aggregation and
 statistics analysis accross time dimensions/coordinates.
+
+Under the hood, **earthkit-transforms** uses common python libraries such as `xarray`, `pandas` and
+`geopandas` to perform the various computations.
+The interface is designed such that it can work with both CPU and GPU data-objects,
+however working with GPU data-objects is beyond the scope of this training.
+
 
 The presentation part of this session will follow the
 [earthkit-transforms Documentation](https://earthkit-transforms.readthedocs.io/en/release-1.0.0rc0/) pages.
