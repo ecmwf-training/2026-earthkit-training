@@ -10,13 +10,13 @@ project:
   open_access: true
   exclude:
     - developer/*
-  github: ecmwf-training/jupyter-template
+  github: ecmwf-training/2026-earthkit-training
   thebe:
     binder:
-      repo: ecmwf-training/jupyter-template
+      repo: ecmwf-training/2026-earthkit-training
       provider: github
       url: https://mybinder.org
-      ref: develop
+      ref: main
   exports:
     - format: pdf
       template: plain_latex_book
