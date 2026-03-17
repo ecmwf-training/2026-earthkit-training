@@ -15,29 +15,35 @@ the 1.0 release.
 :::{card}
 :header: earthkit-data
 :link: ./earthkit-data/index
+A brief introduction to earthkit-data.
 :::
 
 :::{card}
 :header: earthkit-plots
 :link: ./earthkit-plots/index
+A brief introduction to earthkit-plots.
 :::
 
 :::{card}
 :header: earthkit-geo
 :link: ./earthkit-geo/index
+A brief introduction to earthkit-geo.
 :::
 
 :::{card}
 :header: earthkit-transforms
 :link: ./earthkit-transforms/index
+A brief introduction to earthkit-transforms.
 :::
 
 :::{card}
 :header: earthkit-meteo
 :link: ./earthkit-meteo/index
+A brief introduction to earthkit-meteo.
 :::
 
 :::{card}
 :header: earthkit-hydro
 :link: ./earthkit-hydro/index
+A brief introduction to earthkit-hydro.
 :::
