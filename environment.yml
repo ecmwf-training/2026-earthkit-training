@@ -6,3 +6,22 @@ dependencies:
   - matplotlib
   - cartopy
   - jupyterlab-myst
+  - eccodes
+  - jupyterlab
+  - ipykernel
+  - rioxarray
+  - pip
+  - pip:
+    - earthkit-utils @ git+https://github.com/ecmwf/earthkit-utils@release/1.0.0rc0
+    - earthkit-data[all] @ git+https://github.com/ecmwf/earthkit-data@release/1.0.0rc0
+    - earthkit-geo[all] @ git+https://github.com/ecmwf/earthkit-geo@release/1.0.0rc0
+    - earthkit-meteo[all] @ git+https://github.com/ecmwf/earthkit-meteo@release/1.0.0rc0
+    - earthkit-plots @ git+https://github.com/ecmwf/earthkit-plots@release/1.0.0rc0
+    - earthkit-transforms @ git+https://github.com/ecmwf/earthkit-transforms@release/1.0.0rc0
+    - earthkit-hydro @ git+https://github.com/ecmwf/earthkit-hydro@release/1.0.0rc0
+    - eckitlib
+    - mirlib
+    - mir-python
+    - eckit
+    - eccodeslib
+
