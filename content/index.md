@@ -9,6 +9,9 @@ Earth science.
 This training event will prove a brief introduction to the packages that are included in
 the 1.0 release.
 
+[![binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ecmwf-training/2026-earthkit-training/main?labpath=content/index.md)
+| [![kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/ecmwf-training/2026-earthkit-training/blob/main/content/index.md)
+
 
 ::::{grid} 1 1 2 3
 
