@@ -50,6 +50,7 @@ project:
           children:
           - file: content/earthkit-transforms/01a-temporal-aggregations.ipynb
           - file: content/earthkit-transforms/01b-temporal-aggregations-daily-monthly.ipynb
+          - file: content/earthkit-transforms/01c-temporal-accumulation-to-rate.ipynb
           - file: content/earthkit-transforms/challenge-01-calculate-and-plot-daily-monthly-mean-data.ipynb
         - file: content/earthkit-transforms/02-reduce-era5-data-over-geometries.ipynb
           title: Challenge 2 - Aggregate gridded data over country geometries
