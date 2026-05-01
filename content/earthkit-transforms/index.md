@@ -20,12 +20,8 @@ The interface is designed such that it can work with both CPU and GPU data-objec
 however working with GPU data-objects is beyond the scope of this training.
 
 
-The presentation part of this session will follow the
-[earthkit-transforms Documentation](https://earthkit-transforms.readthedocs.io/en/release-1.0.0rc0/) pages.
-Please return here for the notebook execise after the brief presentation.
-
 ---
-
+<!-- 
 ::::{grid} 1 1 3 3
 
 
@@ -48,4 +44,4 @@ Calculate and plot monthly climatologies of ERA5 data.
 :::
 
 ::::
-
+ -->
