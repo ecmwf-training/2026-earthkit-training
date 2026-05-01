@@ -46,8 +46,11 @@ project:
     - title: earthkit-transforms
       file: content/earthkit-transforms/index.md
       children:
-        - file: content/earthkit-transforms/01-calculate-and-plot-daily-monthly-mean-data.ipynb
-          title: Challenge 1 - Calculate and plot daily and monthly mean data
+        - file: content/earthkit-transforms/temporal.md
+          children:
+          - file: content/earthkit-transforms/01a-temporal-aggregations.ipynb
+          - file: content/earthkit-transforms/01b-temporal-aggregations-daily-monthly.ipynb
+          - file: content/earthkit-transforms/challenge-01-calculate-and-plot-daily-monthly-mean-data.ipynb
         - file: content/earthkit-transforms/02-reduce-era5-data-over-geometries.ipynb
           title: Challenge 2 - Aggregate gridded data over country geometries
         - file: content/earthkit-transforms/03-calculate-and-plot-climatologies.ipynb

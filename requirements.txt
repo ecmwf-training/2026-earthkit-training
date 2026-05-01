@@ -1,20 +1,11 @@
---index-url https://test.pypi.org/simple/
---extra-index-url https://pypi.org/simple/
+earthkit==1.0.0rc1
 
-eckitlib==2.0.3.dev65
-eccodeslib==2.47.1.dev65
-mirlib==1.28.1.dev65
-mir-python==1.28.1.dev65
-eckit==2.0.3.dev65
-
-earthkit-utils @ git+https://github.com/ecmwf/earthkit-utils@release/1.0.0rc0
-earthkit-data[all] @ git+https://github.com/ecmwf/earthkit-data@release/1.0.0rc0
-earthkit-geo[all] @ git+https://github.com/ecmwf/earthkit-geo@release/1.0.0rc0
-earthkit-meteo[all] @ git+https://github.com/ecmwf/earthkit-meteo@release/1.0.0rc0
-earthkit-plots @ git+https://github.com/ecmwf/earthkit-plots@release/1.0.0rc0
-earthkit-transforms @ git+https://github.com/ecmwf/earthkit-transforms@release/1.0.0rc0
-earthkit-hydro @ git+https://github.com/ecmwf/earthkit-hydro@release/1.0.0rc0
-
-jupyterlab
-ipykernel
+cdsapi
+numpy
+netCDF4
+xarray
 rioxarray
+matplotlib
+cartopy
+statsmodels
+reverse-geocode
