@@ -32,6 +32,13 @@ project:
         - file: content/earthkit-data/ekd-4-bufr.ipynb
         - file: content/earthkit-data/ekd-5-stream.ipynb
         - file: content/earthkit-data/ekd-6-targets.ipynb
+        - file: content/earthkit-data/solutions/solutions.md
+          children:
+          - file: content/earthkit-data/solutions/ekd-2-grib-solutions.ipynb
+          - file: content/earthkit-data/solutions/ekd-3-netcdf-solutions.ipynb
+          - file: content/earthkit-data/solutions/ekd-4-bufr-solutions.ipynb
+          - file: content/earthkit-data/solutions/ekd-5-stream-solutions.ipynb
+          - file: content/earthkit-data/solutions/ekd-6-targets-solutions.ipynb
     - title: earthkit-plots
       file: content/earthkit-plots/index.md
       children:
@@ -39,6 +46,7 @@ project:
         - file: content/earthkit-plots/ekp-2-formats.ipynb
         - file: content/earthkit-plots/ekp-3-grid-types.ipynb
         - file: content/earthkit-plots/ekp-4-other-plots.ipynb
+
     - title: earthkit-geo
       file: content/earthkit-geo/index.md
       children:
