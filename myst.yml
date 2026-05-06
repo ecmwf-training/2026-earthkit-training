@@ -54,16 +54,34 @@ project:
     - title: earthkit-transforms
       file: content/earthkit-transforms/index.md
       children:
-        - file: content/earthkit-transforms/temporal.md
+        - file: content/earthkit-transforms/01-temporal.md
           children:
           - file: content/earthkit-transforms/01a-temporal-aggregations.ipynb
           - file: content/earthkit-transforms/01b-temporal-aggregations-daily-monthly.ipynb
           - file: content/earthkit-transforms/01c-temporal-accumulation-to-rate.ipynb
-          - file: content/earthkit-transforms/challenge-01-calculate-and-plot-daily-monthly-mean-data.ipynb
-        - file: content/earthkit-transforms/02-reduce-era5-data-over-geometries.ipynb
-          title: Challenge 2 - Aggregate gridded data over country geometries
-        - file: content/earthkit-transforms/03-calculate-and-plot-climatologies.ipynb
-          title: Challenge 3 - Calculate and plot climatologies
+          - file: content/earthkit-transforms/01d-temporal-challenge.ipynb
+            title: "Challenge 1 - Calculate and plot daily and monthly mean data"
+            children:
+            - file: content/earthkit-transforms/solutions/01d-temporal-solutions.ipynb
+              title: Solution
+        - file: content/earthkit-transforms/02-spatial.md
+          children:
+          - file: content/earthkit-transforms/02a-mask-regular-data.ipynb
+          - file: content/earthkit-transforms/02b-reduce-data-over-geometries.ipynb
+          - file: content/earthkit-transforms/02c-spatial-challenge.ipynb
+            title: "Challenge 2 - Reduce data over geometries with extra kwargs"
+            children:
+            - file: content/earthkit-transforms/solutions/02c-spatial-solutions.ipynb
+              title: Solution
+        - file: content/earthkit-transforms/03-climatology.md
+          children:
+          - file: content/earthkit-transforms/03a-calculate-and-plot-climatologies.ipynb
+          - file: content/earthkit-transforms/03b-climate-stripes.ipynb
+          - file: content/earthkit-transforms/03c-climatology-challenge.ipynb
+            title: "Challenge 3 - Calculate and plot climatology quantiles"
+            children:
+            - file: content/earthkit-transforms/solutions/03c-climatology-solution.ipynb
+              title: Solution
     - title: earthkit-meteo
       file: content/earthkit-meteo/index.md
       children:
