@@ -1,8 +1,11 @@
 # Spatial computations
 
 Earthkit transforms provides a `spatial` sub-package designed for computations in the
-spatial domains. It combines geometry data with raster or point cloud data making
-it simple to apply masks and compute aggregations with minimal inspection
+spatial domains.
+
+It combines geometry data (polygons and features) with
+geospatial data, i.e. raster grids, unstructured vector data (e.g. reduced gaussian grids) and point clouds.
+Making it simple to apply masks and compute aggregations with minimal inspection
 of the details of the data formats.
 
 ![banner](./img/ek-t-spatial-banner.png)

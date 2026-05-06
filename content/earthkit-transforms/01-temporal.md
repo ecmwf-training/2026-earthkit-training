@@ -1,8 +1,12 @@
 # Temporal computations
 
 Earthkit transforms provides a temporal sub-package designed to make computations in temporal
-dimensions a walk in the park! Time dimensions are automatically detected, and the complexities
+dimensions a walk in the park!
+
+Time dimensions are automatically detected, and the complexities
 of grouping data for common calculations is simplified to an intuitive API.
+
+![banner](./img/ek-t-temporal-banner.png)
 
 Useful links:
 - [Temporal aggregation methods explained](https://earthkit-transforms.readthedocs.io/en/latest/concepts/temporal.html#aggregation-methods)
