@@ -1,12 +1,15 @@
 # Spatial computations
 
 Earthkit transforms provides a `spatial` sub-package designed for computations in the
-spatial domains. It combines geometry data with gridded or point colou
+spatial domains. It combines geometry data with raster or point cloud data making
+it simple to apply masks and compute aggregations with minimal inspection
+of the details of the data formats.
 
+![banner](./img/ek-t-spatial-banner.png)
 
 
 Useful links:
-- [Temporal aggregation methods explained](https://earthkit-transforms.readthedocs.io/en/latest/concepts/spatial.html)
+- [Spatial methods and API explained](https://earthkit-transforms.readthedocs.io/en/latest/concepts/spatial.html)
 - [Related tutorials](https://earthkit-transforms.readthedocs.io/en/latest/tutorials/spatial/index.html)
 - [Related How-to examples](https://earthkit-transforms.readthedocs.io/en/latest/how-tos/spatial/index.html)
 
