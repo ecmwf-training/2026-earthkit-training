@@ -50,3 +50,7 @@ A brief introduction to earthkit-meteo.
 :link: ./earthkit-hydro/index
 A brief introduction to earthkit-hydro.
 :::
+
+
+The powerpoint presentations from the training event are accessible here:
+https://sites.ecmwf.int/ecbox/earthkit-training/
