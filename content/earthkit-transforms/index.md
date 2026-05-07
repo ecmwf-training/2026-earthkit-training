@@ -19,6 +19,9 @@ Under the hood, **earthkit-transforms** uses common python libraries such as `xa
 The interface is designed such that it can work with both CPU and GPU data-objects,
 however working with GPU data-objects is beyond the scope of this training.
 
+Please refer to the
+[Earthkit transforms documentation](https://earthkit-transforms.readthedocs.io/en/latest/index.html)
+for a more complete description of the features and tools.
 
 ---
 <!-- 
