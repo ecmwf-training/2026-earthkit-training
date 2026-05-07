@@ -1,19 +1,15 @@
 # Setup
 
-## Create a virtualenv
+## If not running on ECMWF's HPC, create a virtualenv
 ```
-module load python3 # only required on ATOS
 python3 -m venv ./earthkit-venv
 source ./earthkit-venv/bin/activate
 pip3 install -r ./requirements.txt
+```
 
-# note: if using 'uv', you will need a different syntax to get the development versions of these packages:
-uv pip install --default-index https://test.pypi.org/simple/ --index https://pypi.org/simple/ --index-strategy unsafe-best-match --prerelease=allow  -r requirements.txt
-```
-## On ATOS only - make the virtualenv available to JupyterHub:
-```
-python3 -m ipykernel install --user --name=earthkit-v1 --env PATH "HOME/training/2026-earthkit-training/earthkit-venv/bin:\$PATH"
-```
+## If running on ECMWF's HPC, start a Jupyterhub session
+https://jupyterhub.ecmwf.int, and choose "version: New" in the config page to get a Python environment that already contains the latest release candidate of Earthkit 1.0.0.
+
 
 # ECMWF Jupyter Book template
 

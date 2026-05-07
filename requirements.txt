@@ -1,4 +1,4 @@
-earthkit==1.0.0rc1
+earthkit==1.0.0rc6
 
 cdsapi
 numpy
@@ -9,3 +9,4 @@ matplotlib
 cartopy
 statsmodels
 reverse-geocode
+jupyterlab
