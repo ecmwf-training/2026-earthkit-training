@@ -1,6 +1,6 @@
 # earthkit-transforms
 
-<a href="https://earthkit-transforms.readthedocs.io/en/release-1.0.0rc0/" target="_blank" rel="noopener">
+<a href="https://earthkit-transforms.readthedocs.io/en/latest/" target="_blank" rel="noopener">
 	<picture>
 		<source srcset="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-dark.svg" media="(prefers-color-scheme: dark)">
 		<source srcset="https://raw.githubusercontent.com/ecmwf/logos/refs/heads/main/logos/earthkit/earthkit-transforms-light.svg" media="(prefers-color-scheme: light)">
