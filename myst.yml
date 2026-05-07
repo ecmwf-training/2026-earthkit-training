@@ -82,6 +82,8 @@ project:
             children:
             - file: content/earthkit-transforms/solutions/03c-climatology-solution.ipynb
               title: Solution
+    - title: End of day one challenge
+      file: content/extras/end-of-day-one-challenge.ipynb
     - title: earthkit-meteo
       file: content/earthkit-meteo/index.md
       children:
