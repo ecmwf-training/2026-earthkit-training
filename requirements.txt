@@ -1,4 +1,4 @@
-earthkit==1.0.0rc6
+earthkit==1.0.0
 
 cdsapi
 numpy
