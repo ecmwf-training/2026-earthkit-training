@@ -8,7 +8,7 @@ pip3 install -r ./requirements.txt
 ```
 
 ## If running on ECMWF's HPC, start a Jupyterhub session
-https://jupyterhub.ecmwf.int, and choose "version: New" in the config page to get a Python environment that already contains the latest release candidate of Earthkit 1.0.0.
+https://jupyterhub.ecmwf.int, and choose "version: New" in the config page to get a Python environment that already contains Earthkit 1.0.0.
 
 
 # ECMWF Jupyter Book template
