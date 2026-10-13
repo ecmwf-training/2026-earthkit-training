@@ -43,14 +43,40 @@ project:
       file: content/earthkit-plots/index.md
       children:
         - file: content/earthkit-plots/ekp-1-introduction.ipynb
-        - file: content/earthkit-plots/ekp-2-formats.ipynb
-        - file: content/earthkit-plots/ekp-3-grid-types.ipynb
-        - file: content/earthkit-plots/ekp-4-other-plots.ipynb
-
+          children:
+          - file: content/earthkit-plots/solutions/ekp-1-introduction.ipynb
+            title: Solution
+        - file: content/earthkit-plots/ekp-2-styles.ipynb
+          children:
+          - file: content/earthkit-plots/solutions/ekp-2-styles.ipynb
+            title: Solution
+        - file: content/earthkit-plots/ekp-3-metadata-formatting.ipynb
+          children:
+          - file: content/earthkit-plots/solutions/ekp-3-metadata-formatting.ipynb
+            title: Solution
+        - file: content/earthkit-plots/ekp-4-formats.ipynb
+          children:
+          - file: content/earthkit-plots/solutions/ekp-4-formats.ipynb
+            title: Solution
+        - file: content/earthkit-plots/ekp-5-grid-types.ipynb
+          children:
+          - file: content/earthkit-plots/solutions/ekp-5-grid-types.ipynb
+            title: Solution
+        - file: content/earthkit-plots/ekp-6-vectors.ipynb
+          children:
+          - file: content/earthkit-plots/solutions/ekp-6-vectors.ipynb
+            title: Solution
+        - file: content/earthkit-plots/ekp-7-other-plots.ipynb
+          children:
+          - file: content/earthkit-plots/solutions/ekp-7-other-plots.ipynb
+            title: Solution
     - title: earthkit-geo
       file: content/earthkit-geo/index.md
       children:
-        - file: content/earthkit-geo/ekg-1-grids.ipynb
+        - file: content/earthkit-geo/ekg-1-geo.ipynb
+          children:
+          - file: content/earthkit-geo/solutions/ekg-1-geo-solutions.ipynb
+            title: Solution
     - title: earthkit-transforms
       file: content/earthkit-transforms/index.md
       children:
@@ -68,6 +94,7 @@ project:
           children:
           - file: content/earthkit-transforms/02a-mask-regular-data.ipynb
           - file: content/earthkit-transforms/02b-reduce-data-over-geometries.ipynb
+          - file: content/earthkit-transforms/02b-reduce-irregular-data-over-geometries.ipynb
           - file: content/earthkit-transforms/02c-spatial-challenge.ipynb
             title: "Challenge 2 - Reduce data over geometries with extra kwargs"
             children:
@@ -82,25 +109,46 @@ project:
             children:
             - file: content/earthkit-transforms/solutions/03c-climatology-solution.ipynb
               title: Solution
-    - title: End of day one challenge
-      file: content/extras/end-of-day-one-challenge.ipynb
-      children:
-        - file: content/extras/solutions/end-of-day-one-challenge-solution.ipynb
-          title: Solution
     - title: earthkit-meteo
       file: content/earthkit-meteo/index.md
       children:
         - file: content/earthkit-meteo/ekm-1-wind.ipynb
+          children:
+          - file: content/earthkit-meteo/solutions/ekm-1-wind-solutions.ipynb
+            title: Solution
         - file: content/earthkit-meteo/ekm-2-thermo.ipynb
+          children:
+          - file: content/earthkit-meteo/solutions/ekm-2-thermo-solutions.ipynb
+            title: Solution
         - file: content/earthkit-meteo/ekm-3-vertical.ipynb
+          children:
+          - file: content/earthkit-meteo/solutions/ekm-3-vertical-solutions.ipynb
+            title: Solution
+        - file: content/earthkit-meteo/ekm-4-extreme.ipynb
+          children:
+          - file: content/earthkit-meteo/solutions/ekm-4-extreme-solutions.ipynb
+            title: Solution
     - title: earthkit-hydro
-      file: content/earthkit-hydro/index.md 
+      file: content/earthkit-hydro/index.md
       children:
         - file: content/earthkit-hydro/ekh-1-getting-started.ipynb
         - file: content/earthkit-hydro/ekh-2-river-accumulations.ipynb
         - file: content/earthkit-hydro/ekh-3-catchment-statistics.ipynb
         - file: content/earthkit-hydro/ekh-4-distances-lengths.ipynb
         - file: content/earthkit-hydro/ekh-5-xarray-gpu-support.ipynb
+
+    - title: Extras
+      children:
+        - file: content/extras/monthly-mean-daily-max.ipynb
+          title: "Challenge - Plot the monthly mean of daily maximum temperature"
+          children:
+          - file: content/extras/solutions/monthly-mean-daily-max-solution.ipynb
+            title: Solution
+        - file: content/extras/ensemble.ipynb
+          children:
+          - file: content/extras/solutions/ensemble_solutions.ipynb
+            title: Solution
+        - file: content/extras/water_balance.ipynb
 
 site:
   template: book-theme
