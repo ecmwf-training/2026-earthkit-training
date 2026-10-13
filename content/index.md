@@ -1,4 +1,4 @@
-# earthkit version 1.0.0 training event, 2026
+# Earthkit version 1.0.0 training event, 2026
 
 The notebooks here are intended to provide an insight for new users of the first official/public
 release of the `earthkit` software landscape.
