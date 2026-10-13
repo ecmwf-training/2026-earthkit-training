@@ -2,6 +2,7 @@ earthkit==1.0.0
 
 cdsapi
 numpy
+healpy
 netCDF4
 xarray
 rioxarray
